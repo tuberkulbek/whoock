@@ -3,7 +3,7 @@ import './AboutUs.css';
 const AboutUs:React.FC = () => {
     return (
         <div className='container'>
-            AboutUs
+            AboutUs  
         </div>
     )
 }
