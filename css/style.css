@@ -31,7 +31,7 @@ ul {
 
 /*! STAGE OF WORK */
 
-#stages {
+section {
   margin-top: 80px;
 }
 
@@ -112,4 +112,14 @@ ul {
   bottom: 14px;
   right: 15px;
   transition: all 0.3s ease;
+}
+
+
+
+/*! STAGE OF WORK */
+.partners__wrapper {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
