@@ -54,7 +54,7 @@ section {
 .about__item {
   box-sizing: border-box;
   width: 25%;
-  padding: 14px 34px;
+  padding: 20px;
   position: relative;
   padding-bottom: 48px;
 }

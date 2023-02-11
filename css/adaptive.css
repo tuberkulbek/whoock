@@ -1,0 +1,56 @@
+/*! STAGE OF WORK */
+
+@media (max-width: 900px) {
+  .about__item {
+    padding: 10px;
+    padding-bottom: 48px;
+  }
+}
+@media (max-width: 730px) {
+  .about__item {
+    width: 50%;
+    padding: 10px;
+    padding-bottom: 48px;
+  }
+  .about__item:nth-child(2) {
+    border-radius: 14px 14px 0 0;
+    border-right: 2px solid #9F37E1;
+    border-bottom: 0;
+  }
+  .about__item:nth-child(3) {
+    border-radius: 0%;
+    border-right: 0;
+    border-radius: 14px 0 0 0;
+    border-bottom: 2px solid #9F37E1;
+  }
+  .about__item:nth-child(4) {
+    border-left: 2px solid #9F37E1;
+    border-bottom: 2px solid #9F37E1;
+    border-radius: 0;
+  }
+  .about__item:nth-child(5) {
+    border-left: 2px solid #9F37E1;
+    border-radius: 0;
+    border-top: 0;
+  }
+  .about__item:nth-child(6) {
+    border-right: 2px solid #9F37E1;
+    border-radius: 0 0 14px 0;
+  }
+  .about__item:nth-child(7) {
+    border-radius: 0 0 14px 14px;
+  }
+}
+@media (max-width: 410px) {
+  .about__item {
+    width: 100%;
+  }
+  .about__item:nth-child(3),
+  .about__item:nth-child(4),
+  .about__item:nth-child(5),
+  .about__item:nth-child(6) {
+    border-radius: 0;
+    border: 2px solid #9F37E1;
+    border-bottom: 0;
+  }
+}
