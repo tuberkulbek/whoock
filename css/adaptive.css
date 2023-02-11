@@ -40,10 +40,16 @@
   .about__item:nth-child(7) {
     border-radius: 0 0 14px 14px;
   }
+  .about__item:last-child {
+    padding: 0;
+  }
 }
 @media (max-width: 410px) {
   .about__item {
     width: 100%;
+  }
+  .about__item:nth-child(1) {
+    padding-bottom: 20px;
   }
   .about__item:nth-child(3),
   .about__item:nth-child(4),
@@ -52,5 +58,30 @@
     border-radius: 0;
     border: 2px solid #9F37E1;
     border-bottom: 0;
+  }
+}
+
+
+/*! PARTNERS */
+@media (max-width: 730px) {
+  .partners__wrapper a {
+    width: 22%;
+  }
+}
+@media (max-width: 470px) {
+  .partners__wrapper a {
+    width: 43%;
+    margin-bottom: 25px;
+  }
+  .partners__wrapper {
+    margin-top: 20px;
+  }
+}
+
+
+/*! GENERAL STYLES */
+@media (max-width: 410px) {
+  section {
+    margin-top: 40px;
   }
 }

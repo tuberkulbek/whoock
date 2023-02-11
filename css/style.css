@@ -120,8 +120,16 @@ section {
 .partners__wrapper {
   margin-top: 30px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+}
+.partners__wrapper a {
+  width: 18%;
+  display: inline-block;
+}
+.partners__wrapper a img{
+  width: 100%;
 }
 
 
