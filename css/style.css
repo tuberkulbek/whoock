@@ -1,0 +1,115 @@
+/*! ОБНУЛЕНИЕ */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  outline: none;
+}
+
+html, 
+body {
+  font-family: 'Outfit', sans-serif;
+  font-style: normal;
+  background-color: #fff;
+  color: #141414;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto; 
+}
+
+/*! ================================== */
+
+
+
+/*! STAGE OF WORK */
+
+#stages {
+  margin-top: 80px;
+}
+
+.section-title {
+  background: linear-gradient(90deg, #572EFD 31.65%, #FF43BB 86.55%);
+  display: inline-block;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.about__wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.about__item {
+  box-sizing: border-box;
+  width: 25%;
+  padding: 14px 34px;
+  position: relative;
+  padding-bottom: 48px;
+}
+.about__item:hover .about__item-arrow {
+  right: 8px;
+}
+.about__item:nth-child(1) {
+  padding: 0;
+  padding-right: 10px;
+}
+.about__item:nth-child(2) {
+  border: 2px solid #9F37E1;
+  border-radius: 14px 0 0 0;
+  border-right: 0px;
+}
+.about__item:nth-child(3),
+.about__item:nth-child(4) {
+  border: 2px solid #9F37E1;
+}
+.about__item:nth-child(4) {
+  border-radius: 0 14px 14px 0;
+  border-left: 0px;
+}
+.about__item:nth-child(5) {
+  border: 2px solid #9F37E1;
+  border-radius: 14px 0 0 14px;
+  border-right: 0px;
+  margin-top: -2px;
+}
+.about__item:nth-child(6) {
+  border: 2px solid #9F37E1;
+  border-top: 0px;
+  border-right: 0px;
+}
+.about__item:nth-child(7) {
+  border-radius: 0 0 14px 0;
+  color: #fff;
+  background: linear-gradient(180deg, #AB38DC 0%, #F642BE 100%);
+}
+.about__item:nth-child(7):hover .about__item-arrow {
+  right: 15px;
+  transform: scale(1.15);
+}
+
+.about__item-title {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.about__item-description {
+  font-size: 12px;
+}
+.about__item-arrow {
+  position: absolute;
+  bottom: 14px;
+  right: 15px;
+  transition: all 0.3s ease;
+}
