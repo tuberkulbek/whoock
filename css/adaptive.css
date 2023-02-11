@@ -79,6 +79,19 @@
 }
 
 
+/*! WHOOCK IT */
+@media (max-width: 630px) {
+  .whoock-it__text,
+  .whoock-it__text span {
+    font-size: 50px;
+  }
+  .whoock-it__wrapper {
+    padding-top: 50px;
+    padding-bottom: 120px;
+  }
+}
+
+
 /*! GENERAL STYLES */
 @media (max-width: 410px) {
   section {
