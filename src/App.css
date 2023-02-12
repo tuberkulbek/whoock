@@ -1,16 +1,45 @@
-body {
-  background-color: #F5F5F5;
-  font-family: 'Outfit';
-  font-style: normal;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  outline: none;
 }
 
-.App {
-  display: flex;
-  flex-direction: column;
-  width: 100wh;
+html, body {
+  background-color: #F5F5F5;
+  font-family: 'Outfit', sans-serif;
+  font-style: normal;
+  color: #141414;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
 }
 
 .container {
   height: 100vh;
-  width: 100vw;
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  font-size: 36px;
+}
+
+.section {
+  margin-top: 10px;
+}
+
+.rainbow {
+  background: linear-gradient(90deg, #572EFD 31.65%, #FF43BB 86.55%);
+  display: inline-block;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-size: inherit;
+  font-weight: 700;
+}
+
+.ml-1 {
+  margin-left: 10px;
 }

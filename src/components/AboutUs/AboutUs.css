@@ -1,0 +1,43 @@
+.aboutUs_left {
+    min-width: 478px;
+}
+
+.aboutUs_item-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 340px;
+}
+
+.aboutUs_item-button {
+    margin-left: 90px;
+    font-size: 14px;
+    opacity: 0.5;
+    font-weight: 400;
+}
+
+.aboutUs_left button{
+    margin-top: 35px;
+    width: 340px;
+    min-height: 50px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.aboutUs_container {
+    display: flex;
+}
+.aboutUs_container img{
+    width: 850px;
+    height: 500px;
+}
+
+.aboutUs_item-title {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.aboutUs_item-description {
+    font-size: 20px;
+    font-weight: 400;
+}

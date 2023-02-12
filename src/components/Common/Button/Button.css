@@ -1,6 +1,4 @@
 .styled_button {
-    min-height: 60px;
-    min-width: 260px;
     border-radius: 44px;
     background: linear-gradient(90deg, #572EFD 4.63%, #FF43BB 100%);
     border: none;
