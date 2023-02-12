@@ -12,6 +12,10 @@
     margin-left: auto;
     margin-right: auto;
   }
+  .title {
+    text-align: center;
+    margin: 12px 0;
+  }
   .about__offer {
     width: 100%;
   }
@@ -148,5 +152,15 @@
 @media (max-width: 410px) {
   section {
     margin-top: 40px;
+  }
+}
+@media (max-width: 1075px) {
+  ::-webkit-scrollbar { 
+    width: 0;
+    overflow: -moz-scrollbars-none;
+  }
+  html {
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
   }
 }

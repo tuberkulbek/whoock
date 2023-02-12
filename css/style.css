@@ -44,6 +44,25 @@ ul {
   box-shadow: 0 0 25px 4px rgba(248, 96, 241, 0.368);
 }
 
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #F1F1F1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #C1C1C1;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #939393;
+}
+
 
 /*! ================================== */
 
@@ -294,9 +313,27 @@ footer {
 .footer__logo-text {
   font-weight: 600;
   font-size: 40px;
-  color: #fff;
   margin-left: 7px;
+  background: linear-gradient(90deg, #fff 0%, #fff, 48%,  #572EFD 50%, #FF43BB 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  background-size: 550%;
+  transition: all 0.75s ease;
 }
+.footer__logo:hover .footer__logo-text{
+  background-size: 200%;
+  background-position: 100% 0;
+}
+#footer-logo-right,
+#footer-logo-middle,
+#footer-logo-left {
+  transition: all 0.75s ease;
+}
+.footer__logo:hover #footer-logo-right {fill: #FE3AB8}
+.footer__logo:hover #footer-logo-middle {fill: #BB08D8}
+.footer__logo:hover #footer-logo-left {fill: #872DFB}
 .footer__social {
   display: flex;
   justify-content: space-between;
@@ -314,9 +351,15 @@ footer {
   bottom: 5px;
   transform: scale(1.1);
 }
+#telegram-white,
+#instagram-white {
+  transition: all 0.3s ease;
+}
 #behance:hover {color: rgb(80, 139, 255)}
 #telegram:hover {color: #4ebbed}
+#telegram:hover #telegram-white {fill: #fff}
 #instagram:hover {color: #E8444B}
+#instagram:hover #instagram-white {fill: #fff}
 svg {
   width: 100%;
   height: 100%;
@@ -325,3 +368,4 @@ svg {
   width: 100%;
   height: 100%;
 }
+
