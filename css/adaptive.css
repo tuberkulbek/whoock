@@ -91,6 +91,34 @@
   }
 }
 
+/*! FOOTER */
+@media (max-width: 850px) {
+  .editorial {
+    height: 60px;
+  }
+}
+@media (max-width: 740px) {
+  .footer__wrapper {
+    padding-top: 55px;
+  }
+  .footer__logo {
+    top: 25%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media (max-width: 460px) {
+  .footer__wrapper {
+    justify-content: space-around;
+  }
+  .footer__wrapper {
+    padding-top: 85px;
+  }
+  .footer__item {
+    width: 80%;
+    margin-bottom: 15px;
+  }
+}
+
 
 /*! GENERAL STYLES */
 @media (max-width: 410px) {
