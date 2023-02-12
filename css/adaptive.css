@@ -1,3 +1,27 @@
+/*! ABOUT US */
+@media (max-width: 1075px) {
+  .about__offer {
+    width: 45%;
+  }
+  .about__img {
+    width: 50%;
+  }
+}
+@media (max-width: 650px) {
+  .about__offer span button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about__offer {
+    width: 100%;
+  }
+  .about__img {
+    display: none;
+  }
+}
+
+
+
 /*! STAGE OF WORK */
 
 @media (max-width: 900px) {

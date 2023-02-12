@@ -31,7 +31,7 @@ ul {
   padding: 15px 70px;
   background: linear-gradient(90deg, #572EFD 0%, #FF43BB 25%, #572EFD 95%);
   color: #fff;
-  border-radius: 30px;
+  border-radius: 40px;
   background-position: 0% 150%;
   transition: all 0.6s ease;
   background-size: 400%;
@@ -48,6 +48,7 @@ ul {
 /*! ================================== */
 
 
+
 /*! ABOUT US */
 .about__wrapper {
   display: flex;
@@ -61,6 +62,7 @@ ul {
 .title {
   font-weight: 700;
   font-size: 64px;
+  line-height: 90%;
 }
 .description {
   margin-top: 5px;
