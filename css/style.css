@@ -27,10 +27,69 @@ ul {
   margin: 0 auto; 
 }
 
+.start-creating {
+  padding: 15px 70px;
+  background: linear-gradient(90deg, #572EFD 0%, #FF43BB 25%, #572EFD 95%);
+  color: #fff;
+  border-radius: 30px;
+  background-position: 0% 150%;
+  transition: all 0.6s ease;
+  background-size: 400%;
+  font-weight: 600;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.start-creating:hover {
+  background-position: 70% 140%;
+  box-shadow: 0 0 25px 4px rgba(248, 96, 241, 0.368);
+}
 
 
 /*! ================================== */
 
+
+/*! ABOUT US */
+.about__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.about__offer {
+  width: 39%;
+}
+.title {
+  font-weight: 700;
+  font-size: 64px;
+}
+.description {
+  margin-top: 5px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 107%;
+}
+.about__button {
+  border: none;
+  cursor: pointer;
+  margin-top: 35px;
+  display: block;
+  position: relative;
+}
+.about__button:after {
+  content: "For prospective investors";
+  position: absolute;
+  display: block;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -20px;
+  width: 100%;
+  color: #8A8A8A;
+  font-weight: 400;
+  font-size: 14px;
+} 
+.about__img {
+  width: 60%;
+}
 
 
 /*! STAGE OF WORK */
@@ -50,68 +109,68 @@ section {
   font-weight: 700;
 }
 
-.about__wrapper {
+.stages_wrapper {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.about__item {
+.stages_item {
   box-sizing: border-box;
   width: 25%;
   padding: 20px;
   position: relative;
   padding-bottom: 48px;
 }
-.about__item:hover .about__item-arrow {
+.stages_item:hover .stages_item-arrow {
   right: 8px;
 }
-.about__item:nth-child(1) {
+.stages_item:nth-child(1) {
   padding: 0;
   padding-right: 10px;
 }
-.about__item:nth-child(2) {
+.stages_item:nth-child(2) {
   border: 2px solid #9F37E1;
   border-radius: 14px 0 0 0;
   border-right: 0px;
 }
-.about__item:nth-child(3),
-.about__item:nth-child(4) {
+.stages_item:nth-child(3),
+.stages_item:nth-child(4) {
   border: 2px solid #9F37E1;
 }
-.about__item:nth-child(4) {
+.stages_item:nth-child(4) {
   border-radius: 0 14px 14px 0;
   border-left: 0px;
 }
-.about__item:nth-child(5) {
+.stages_item:nth-child(5) {
   border: 2px solid #9F37E1;
   border-radius: 14px 0 0 14px;
   border-right: 0px;
   margin-top: -2px;
 }
-.about__item:nth-child(6) {
+.stages_item:nth-child(6) {
   border: 2px solid #9F37E1;
   border-top: 0px;
   border-right: 0px;
 }
-.about__item:nth-child(7) {
+.stages_item:nth-child(7) {
   border-radius: 0 0 14px 0;
   color: #fff;
   background: linear-gradient(180deg, #AB38DC 0%, #F642BE 100%);
 }
-.about__item:nth-child(7):hover .about__item-arrow {
+.stages_item:nth-child(7):hover .stages_item-arrow {
   right: 15px;
   transform: scale(1.15);
 }
 
-.about__item-title {
+.stages_item-title {
   font-weight: 600;
   font-size: 24px;
   margin-bottom: 30px;
 }
-.about__item-description {
+.stages_item-description {
   font-size: 12px;
 }
-.about__item-arrow {
+.stages_item-arrow {
   position: absolute;
   bottom: 14px;
   right: 15px;
@@ -120,7 +179,7 @@ section {
 
 
 
-/*! STAGE OF WORK */
+/*! PARNTERS */
 .partners__wrapper {
   margin-top: 30px;
   display: flex;
@@ -158,20 +217,7 @@ section {
   margin-left: auto;
   margin-top: 40px;
 }
-.start-creating {
-  padding: 15px 70px;
-  background: linear-gradient(90deg, #572EFD 0%, #FF43BB 25%, #572EFD 95%);
-  color: #fff;
-  border-radius: 30px;
-  background-position: 0% 150%;
-  transition: all 0.6s ease;
-  background-size: 400%;
-  font-weight: 600;
-}
-.start-creating:hover {
-  background-position: 70% 140%;
-  box-shadow: 0 0 25px 4px rgba(248, 96, 241, 0.368);
-}
+
 
 
 
